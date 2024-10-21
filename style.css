@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+    display: flex;
+    gap: 10px;
+
+
+}
+.navitem{
+     height: 30px;
+     width: auto;
+    
+     ;
+     margin: 10px;
+    
+}
+.navitem a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.searchbtn{
+    width: 90px;
+    height: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+.offshow{
+    background-color: #414584;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+}
+.banner{
+    /* background-color: red; */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 5px;
+}
+.banner1 img{
+    height: 300px;
+    position: absolute;
+    right: 300px;
+}
+.banner2 img{
+    height: 300px;
+    position: absolute;
+    left: 300px;
+}
+.shoescontainer{
+    /* background-color: red; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.shoesitem{
+    /* background-color: yellow; */
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(0,0,0,35)0px 5px 15px  ;
+    margin: 10px;
+   
+}
+.shoesitem img{
+    height: 220px;
+    object-fit: cover;
+}
+.heading{
+    /* background-color: red; */
+    width: auto;
+    height: 120px;
+     margin-top: 60px;
+     text-align: center;
+      padding: 10px;
+       display: flex;
+       flex-direction: column;
+}
+.span1{
+    font-size: 40px;
+    color: black;
+}
+.clothcard{
+    /* background-color: red; */
+    height: auto;
+    width: auto;
+    display: flex;
+     gap: 10px
+     ;
+     justify-content: space-around;
+     justify-content: center;
+     align-items: center;
+}
+.clothitem{
+    height: 250px;
+     width: 250px;
+     background-color: aqua;
+}
+.clothitem img{
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+}
+.card{
+    margin-top: 90px;
+    /* background-color: red; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 20px
+    ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carditem{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+}
+.carditem img{
+    height: 250px;
+    width: 250px;
+}
+.largebanner{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    margin-top: 10px;
+}
+.largebanner img{
+    width: 100%;
+    height: 200px;
+     object-fit: cover;
+     
+}
